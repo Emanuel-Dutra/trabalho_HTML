@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <title>FABeleza</title>
+    </head>
+    <body>
+        <header>
+                <table>
+                    <button><a href="../../index.html">Início</a></button>
+                    <button><a href="produto.html">Produtos</a></button>
+                    <button><a href="sobre.html">Sobre</a></button> 
+                    <button><a href="contato.html">Contato</a></button>
+                </table>
+            </header>
+
+        <h1>Alguma dúvida?</h1>
+        <h3>Entre em contato para tirar suas dúvidas de como começar a vender ou trocar suas cartas</h3>
+
+            <!-- Fiz um formulário padrão para quem quisesse entrar em contato, usei de forma bem simples com
+             o type correto de cada label e vinculando o "for" e "id" de cada um, além disso adotei o 
+             method "Post" para deixa-lo mais seguro.-->
+
+        <form action="#" method="post">
+            
+            <fieldset>
+                <legend>Dados Gerais</legend>
+                <label for="nome_do_formulário">Nome</label>
+                <input type="nome_do_formulário" id="nome_do_formulário" name="nome_do_formulário" required minlength="3">
+
+                <label for="telefone_formulário">Telefone:</label>
+                <input type="tel" id="telefone_formulário" name="telefone_formulário" required minlength="11" maxlength="11" pattern="[0-9]{11}">
+
+                <label for="email_formulário">E-mail</label>
+                <input type="email" id="email_formulário" name="email_formulário" required>
+                
+            </fieldset>
+
+            <fieldset>
+                <legend>Digite sua mensagem</legend>
+                <label for="msg_formulário">Mensagem</label>
+                <textarea id="msg_formulário" cols="50" rows="4"></textarea>
+                <br>
+                <br>
+                <button type="submit">Enviar formulário</button>
+                <button type="reset">Limpar formulário</button>
+            </fieldset>
+        </form>
+        <fieldset>
+            <img src="../img/site_em_construção.png" alt="site em construção" width="700px" height="500px">
+        </fieldset>
+
+         <footer>
+       <p>autor - Emanuel Dutra</p> 
+        <p>Contato - 85 9101-4395</p>
+        </footer>
+
+    </body>
+</html>
